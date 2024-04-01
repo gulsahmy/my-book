@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.par{
+  color: magenta;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.main{
+  color: aqua;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.footer{
+  color: red;
+  font-size: 5rem;
+  font-weight: bold;
+}
