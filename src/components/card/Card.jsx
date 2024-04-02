@@ -1,11 +1,16 @@
+import Buton from "../buton/Buton"
+// import "./Card.css"
+import CardStyle from "./Card.module.css"
+
 
 const Card = ({lang, img}) => {
     return (
         <div>
-            <div className="wrapper">
+            <div className={CardStyle.wrapper}>
                 <h1> {lang} </h1>
             </div>
-            <img src={img} alt={lang} />
+            <img className= {CardStyle.wrapper} src={img} alt={lang} />
+            <Buton />
         </div>
 
     )
